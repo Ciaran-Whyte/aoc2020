@@ -4,7 +4,7 @@ def readInputs(file_name: str) -> list[int]:
     return [int(x) for x in lineInput]
 
 
-def do_we_have_a_twenty_twenty_pair(input_one: int, remaining_numbers: list[int]) -> (bool, int):
+def do_we_have_a_twenty_twenty_pair(input_one: int, remaining_numbers: list[int]) -> tuple(bool, int):
     for x in remaining_numbers:
         if x + input_one == 2020:
             return True, x
