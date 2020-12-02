@@ -19,4 +19,5 @@ for idx, num in enumerate(numbers):
     if match:
         print(f"{num} + {paired_num} == 2020")
         print(f"{num} * {paired_num} == {num * paired_num}")
+        break
 
