@@ -1,4 +1,4 @@
-def solve(input_list, total_turns):
+def solve(input_list: list, total_turns: int) -> int:
     d = { num:index for index, num in enumerate(input_list, 1) } 
     current = input_list[-1]
     turn   = len(input_list)
